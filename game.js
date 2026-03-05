@@ -32,19 +32,19 @@ LOAD IMAGES
 ===================== */
 
 const bgImg = new Image();
-bgImg.src = "vutru2.jpg";
+bgImg.src = "images/vutru2.jpg";
 
 const playerImg = new Image();
-playerImg.src = "maybaychiendau-removebg-preview.png";
+playerImg.src = "images/maybaychiendau-removebg-preview.png";
 
 const enemyImg = new Image();
-enemyImg.src = "kedich1-removebg-preview.png";
+enemyImg.src = "images/kedich1-removebg-preview.png";
 
 const skillEImg = new Image();
-skillEImg.src = "kynangE.webp";
+skillEImg.src = "images/kynangE.webp";
 
 const skillRImg = new Image();
-skillRImg.src = "kynangR.webp";
+skillRImg.src = "images/kynangR.webp";
 
 /* =====================
 PLAYER
@@ -597,6 +597,5 @@ draw();
 requestAnimationFrame(gameLoop);
 
 }
-
 
 gameLoop();
